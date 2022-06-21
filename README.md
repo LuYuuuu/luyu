@@ -13,3 +13,6 @@
 4. 合并分支
 > git merge 分支名
 
+5. 标签
+> 查看标签 git tag
+> 添加标签 git tag -a v1.0 -m "标签注解"
