@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.main {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 0 auto;
+    background: url(./images/bg1.png) no-repeat center center;
+}
+.main .logo { 
+    position: absolute;
+    top: 53px;
+    left: 113px;
+}
+.main .detail {
+    position: absolute;
+    top: 80px;
+    left: 357px;
+}
+.main .detail a {
+    display: block;
+    font-size: 23px;
+    margin-bottom: 33px;
+}
+.main .detail a .icon {
+    vertical-align: middle;
+}
+.main .detail a span {
+    margin-left: 15px;
+    vertical-align: middle;
+}
